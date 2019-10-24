@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{config('app.locale')}}" dir="{{config('app.direction')}}">
+<html lang="{{ config('app.local') }}" dir="{{ config('app.direction') }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <meta name="description" content="This is cloud based solution for central sterile supply department. ">
-    <link href="{{ asset('vendors/css/normalize.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendors/css/Grid.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendors/css/ionicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendors/css/animate.css') }}" rel="stylesheet" >
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet"  >
-    <link href="{{ asset('css/queries.css') }}" rel="stylesheet"  >
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet"  >
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendors/css/normalize.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendors/css/Grid.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendors/css/ionicons.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendors/css/animate.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/queries.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700" rel="stylesheet">
     <title> cssd cloud tracking system</title>
 
@@ -23,33 +22,30 @@
     <meta name="msapplication-TileColor" content="#dfdfdf">
     <meta name="msapplication-config" content="{{ asset('favicons/browserconfig.xml') }}">
     <meta name="theme-color" content="#ff0000">
+
 </head>
 
 <body>
 <header>
-    <nav class="navbar">
-        <div class="container">
+    <nav>
         <div class="row">
-            <img src="{{ asset('css/img/logo-white.png') }}" alt="CSSD TRAKING LOGO" class="logo">
-            <img src="{{ asset('css/img/logo.png') }}" alt="CSSD TRAKING LOGO-black" class="logo-black">
+            <img src="css/img/logo-white.png" alt="CSSD TRAKING LOGO" class="logo">
+            <img src="css/img/logo.png" alt="CSSD TRAKING LOGO-black" class="logo-black">
             <ul class="main-nav js--main-nav">
                 <li><a href="#features">Features Overview</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#support">Support</a></li>
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#industries">Industries</a></li>
-                <li><a href="#sign">Sign up</a></li>
+                <li><a href="{{ route('login') }}">Sign up</a></li>
             </ul>
             <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
         </div>
-        </div>
     </nav>
     <div class="hero-text-box">
-        <div class="container">
-            <h1>Track your operations.<br> quickly , simply and easily .</h1>
-            <a class="btn btn-full js--scroll-to-plans" href="#">Get Free Trail</a>
-            <a class="btn btn-ghost js--scroll-to-start" href="#">Schedule a Demo </a>
-        </div>
+        <h1>Track your operations.<br> quickly , simply and easily .</h1>
+        <a class="btn btn-full js--scroll-to-plans" href="#">Get Free Trail</a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#">Schedule a Demo </a>
     </div>
 </header>
 
@@ -94,50 +90,50 @@
     <ul class="ster-showcase clearfix">
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/1.jpg') }}" alt="one">
+                <img src="css/img/1.jpg" alt="one">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/2.jpg') }}" alt="two">
+                <img src="css/img/2.jpg" alt="two">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/3.jpg') }}" alt="three">
+                <img src="css/img/3.jpg" alt="three">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/4.jpg') }}" alt="four">
+                <img src="css/img/4.jpg" alt="four">
             </figure>
         </li>
     </ul>
     <ul class="ster-showcase clearfix">
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/5.jpg') }}" alt="five">
+                <img src="css/img/5.jpg" alt="five">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/6.jpg') }}" alt="six">
+                <img src="css/img/6.jpg" alt="six">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/7.jpg') }}" alt="seven">
+                <img src="css/img/7.jpg" alt="seven">
             </figure>
         </li>
 
         <li>
             <figure class="ster-photo">
-                <img src="{{ asset('css/img/8.jpg') }}" alt="eight">
+                <img src="css/img/8.jpg" alt="eight">
             </figure>
         </li>
     </ul>
@@ -150,7 +146,7 @@
 
     <div class="row">
         <div class="col span-1-of-2 steps-box">
-            <img src="{{ asset('css/img/app-iPhone.png') }}" alt="CSSD Tracking system on iphone" class="app-screen js--wp-2">
+            <img src="css/img/app-iPhone.png" alt="CSSD Tracking system on iphone" class="app-screen js--wp-2">
         </div>
         <div class="col span-1-of-2 steps-box">
             <div class="works-step">
@@ -166,8 +162,8 @@
                 <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
             </div>
 
-            <a href="#" class="btn-app"><img src="{{ asset('css/img/download-app.svg') }}" alt="app store button"></a>
-            <a href="#" class="btn-app"><img src="{{ asset('css/img/download-app-android.png') }}" alt="Play store button"></a>
+            <a href="#" class="btn-app"><img src="css/img/download-app.svg" alt="app store button"></a>
+            <a href="#" class="btn-app"><img src="css/img/download-app-android.png" alt="Play store button"></a>
 
         </div>
     </div>
@@ -179,7 +175,7 @@
     </div>
     <div class="row js--wp-3">
         <div class="col span-1-of-4 box">
-            <img src="{{ asset('css/img/lisbon-3.jpg') }}" alt="Lisbon">
+            <img src="css/img/lisbon-3.jpg" alt="Lisbon">
             <h3>Lisbon</h3>
             <div class="city-feature">
                 <i class="ion-ios-person icon-small"></i>
@@ -196,7 +192,7 @@
         </div>
 
         <div class="col span-1-of-4 box">
-            <img src="{{ asset('css/img/san-francisco.jpg') }}" alt="san Francisco">
+            <img src="css/img/san-francisco.jpg" alt="san Francisco">
             <h3>San Francisco</h3>
             <div class="city-feature">
                 <i class="ion-ios-person icon-small"></i>
@@ -213,7 +209,7 @@
         </div>
 
         <div class="col span-1-of-4 box">
-            <img src="{{ asset('css/img/berlin.jpg') }}" alt="Berlin">
+            <img src="css/img/berlin.jpg" alt="Berlin">
             <h3>Berlin</h3>
             <div class="city-feature">
                 <i class="ion-ios-person icon-small"></i>
@@ -230,7 +226,7 @@
         </div>
 
         <div class="col span-1-of-4 box">
-            <img src="{{ asset('css/img/london.jpg') }}" alt="London">
+            <img src="css/img/london.jpg" alt="London">
             <h3>London</h3>
             <div class="city-feature">
                 <i class="ion-ios-person icon-small"></i>
@@ -256,19 +252,19 @@
         <div class="col span-1-of-3">
             <blockquote>
                 Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                <cite><img src="{{ asset('css/img/customer-1.jpg') }}" alt="Alberto Duncan">Alberto Duncan</cite>
+                <cite><img src="css/img/customer-1.jpg" alt="Alberto Duncan">Alberto Duncan</cite>
             </blockquote>
         </div>
         <div class="col span-1-of-3">
             <blockquote>
                 Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                <cite><img src="{{ asset('css/img/customer-2.jpg') }}" alt="Joana Silva">Joana Silva</cite>
+                <cite><img src="css/img/customer-2.jpg" alt="Joana Silva">Joana Silva</cite>
             </blockquote>
         </div>
         <div class="col span-1-of-3">
             <blockquote>
                 I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                <cite><img src="{{ asset('css/img/customer-3.jpg') }}" alt="Milton Chapman">Milton Chapman</cite>
+                <cite><img src="css/img/customer-3.jpg" alt="Milton Chapman">Milton Chapman</cite>
             </blockquote>
         </div>
     </div>
@@ -457,11 +453,11 @@
 <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-<script src="{{ asset('js/script.js') }}"></script>
-<script src="{{ asset('vendors/js/jquery.waypoints.min.js') }}"></script>
+<script src="js/script.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
 </body>
 
-
 </html>
+
 
 

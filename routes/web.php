@@ -14,7 +14,11 @@
 Route::get('/', function () {
     return view('index');
 });
-
+/*
+Route::get('/form', function () {
+    return view('form');
+});
+*/
 Auth::routes();
 
 
@@ -25,6 +29,8 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles','RoleController');
     Route::resource('users','UserController');
     Route::resource('products','ProductController');
+    Route::resource('reals','RealController');
+    Route::get('/form', function (){return view('form');});
 });
 
 
