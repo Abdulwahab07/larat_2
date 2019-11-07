@@ -542,6 +542,9 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 <script src="{{asset('global/plugins/jquery-repeater/jquery.repeater.js')}}" type="text/javascript"></script>
 <script src="{{asset('global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZlrymJsryl5himcxxt9igsAaUkXk20RA&callback=initMap"
+        async defer></script>
+<script src="{{asset('global/plugins/gmaps/gmaps.min.js')}}" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN THEME GLOBAL SCRIPTS -->
 <script src="{{asset('global/scripts/app.min.js')}}" type="text/javascript"></script>
@@ -564,6 +567,31 @@ License: You must have a valid license purchased only from themeforest(the above
             $('#radio1003').attr('checked', 'checked');
         });
     })
+</script>
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat:18.2342 , lng: 42.7790},
+            zoom: 8,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                position: google.maps.ControlPosition.TOP_CENTER
+            },
+            zoomControl: true,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.LEFT_CENTER
+            },
+            scaleControl: true,
+            streetViewControl: true,
+            streetViewControlOptions: {
+                position: google.maps.ControlPosition.LEFT_TOP
+            },
+            fullscreenControl: true
+
+        });
+    }
 </script>
 </body>
 

@@ -1,5 +1,26 @@
 {
   "Add new real" : "أضف عقار",
-  "Real details" : "تفاصيل العقار"
+  "Real details" : "تفاصيل العقار",
+  "Add Address Details" : "أضف العنوان بالتفصيل",
+  "city" : "المدينة",
+  "Riyadh" : "الرياض",
+  "Jeddah" : "جدة" ,
+  "Abha" : "أبها" ,
+  "Dammam" : "الدمام" ,
+  "distirct" : "الحي" ,
+  "planed" : "مخطط معتمد" ,
+  "certified" : "نعم" ,
+  "not certified" : "لا",
+  "planed number" : "رقم المخطط",
+  "town" : "المركز أو القرية",
+  "piece number" : "رقم القطعة",
+  "inscope" : "داخل النطاق العمراني",
+  "yes" : "نعم",
+  "no" : "لا",
+  "nearest" : "أقرب معلم",
+  "x axis" : "الاحداثي الافقي",
+  "y axis" : "الاحداثي الطولي",
+  "Cancel" : "تراجع",
+  "Submit and next" : "أحفظ و انتقل"
 
 }

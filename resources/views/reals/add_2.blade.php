@@ -35,10 +35,10 @@
                 </ul>
                 <div class="tab-content">
                     <div class="tab-pane active" id="tab_0">
-                        <div class="portlet box green">
+                        <div class="portlet box blue">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="fa fa-gift"></i>Form Actions On Bottom </div>
+                                    <i class="fa fa-gift"></i>{{__('Add Address Details')}} </div>
                                 <div class="tools">
                                     <a href="javascript:;" class="collapse"> </a>
                                     <a href="#portlet-config" data-toggle="modal" class="config"> </a>
@@ -51,654 +51,133 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="form-body">
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Text</label>
+                                            <label class="col-md-3 control-label">{{__('city')}}</label>
                                             <div class="col-md-4">
-                                                <input type="text" class="form-control input-circle" placeholder="Enter text">
-                                                <span class="help-block"> A block of help text. </span>
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('Riyadh')}}</option>
+                                                    <option value="Category 2">{{__('Abha')}}</option>
+                                                    <option value="Category 3">{{__('Jeddah')}}</option>
+                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Email Address</label>
+                                            <label class="col-md-3 control-label">{{__('distirct')}}</label>
                                             <div class="col-md-4">
-                                                <div class="input-group">
-                                                                    <span class="input-group-addon input-circle-left">
-                                                                        <i class="fa fa-envelope"></i>
-                                                                    </span>
-                                                    <input type="email" class="form-control input-circle-right" placeholder="Email Address"> </div>
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('Riyadh')}}</option>
+                                                    <option value="Category 2">{{__('Abha')}}</option>
+                                                    <option value="Category 3">{{__('Jeddah')}}</option>
+                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Password</label>
+                                            <label class="control-label col-md-3">{{__('planed')}}</label>
                                             <div class="col-md-4">
-                                                <div class="input-group">
-                                                    <input type="password" class="form-control input-circle-left" placeholder="Password">
-                                                    <span class="input-group-addon input-circle-right">
-                                                                        <i class="fa fa-user"></i>
-                                                                    </span>
+                                                <div class="radio-list">
+                                                    <label></label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('certified')}} </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('not certified')}} </label>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Left Icon</label>
+                                            <label class="col-md-3 control-label">{{__('planed number')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('planed number')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('town')}}</label>
                                             <div class="col-md-4">
                                                 <div class="input-icon">
-                                                    <i class="fa fa-bell-o"></i>
-                                                    <input type="text" class="form-control input-circle" placeholder="Left icon"> </div>
+                                                    <input type="text" class="form-control" placeholder="{{__('town')}}"> </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Right Icon</label>
+                                            <label class="col-md-3 control-label">{{__('piece number')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('piece number')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3">{{__('inscope')}}</label>
+                                            <div class="col-md-4">
+                                                <div class="radio-list">
+                                                    <label></label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('yes')}} </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('no')}} </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('nearest')}}</label>
                                             <div class="col-md-4">
                                                 <div class="input-icon right">
-                                                    <i class="fa fa-microphone"></i>
-                                                    <input type="text" class="form-control input-circle" placeholder="Right icon"> </div>
+                                                    <input type="text" class="form-control" placeholder="{{__('nearest')}}"> </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">Input With Spinner</label>
-                                            <div class="col-md-4">
-                                                <input type="password" class="form-control spinner input-circle" placeholder="Password"> </div>
-                                        </div>
-                                        <div class="form-group last">
-                                            <label class="col-md-3 control-label">Static Control</label>
-                                            <div class="col-md-4">
-                                                <span class="form-control-static"> email@example.com </span>
+                                            <label class="col-md-3 control-label">{{__('x axis')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('x axis')}}"> </div>
                                             </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('y axis')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('y axis')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- BEGIN STATIC PORTLET-->
+                                            <div class="portlet light portlet-fit ">
+                                                <div class="portlet-title">
+                                                    <div class="caption">
+                                                        <i class=" icon-layers font-yellow"></i>
+                                                        <span class="caption-subject font-yellow bold uppercase">Static</span>
+                                                    </div>
+                                                    <div class="actions">
+                                                        <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
+                                                            <i class="icon-cloud-upload"></i>
+                                                        </a>
+                                                        <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
+                                                            <i class="icon-wrench"></i>
+                                                        </a>
+                                                        <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
+                                                            <i class="icon-trash"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="portlet-body">
+                                                    <div id="gmap_static" class="gmaps">
+                                                        <div  id="map">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- END STATIC PORTLET-->
                                         </div>
                                     </div>
                                     <div class="form-actions">
                                         <div class="row">
                                             <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn btn-circle green">Submit</button>
-                                                <button type="button" class="btn btn-circle grey-salsa btn-outline">Cancel</button>
+                                                <button type="button" class="btn  grey-salsa btn-outline">{{__('Cancel')}}</button>
+                                                <button type="submit" class="btn  blue">{{__('Submit and next')}}</button>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                                 <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet box blue-hoki">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="fa fa-gift"></i>Form Actions On Top </div>
-                                <div class="tools">
-                                    <a href="javascript:;" class="collapse"> </a>
-                                    <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                    <a href="javascript:;" class="reload"> </a>
-                                    <a href="javascript:;" class="remove"> </a>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="form-horizontal">
-                                    <div class="form-actions top">
-                                        <div class="row">
-                                            <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-body">
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Text</label>
-                                            <div class="col-md-4">
-                                                <input type="text" class="form-control" placeholder="Enter text">
-                                                <span class="help-block"> A block of help text. </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Email Address</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-envelope"></i>
-                                                                    </span>
-                                                    <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Password</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                    <input type="password" class="form-control" placeholder="Password">
-                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-user"></i>
-                                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Left Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon">
-                                                    <i class="fa fa-bell-o"></i>
-                                                    <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Right Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon right">
-                                                    <i class="fa fa-microphone"></i>
-                                                    <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Input With Spinner</label>
-                                            <div class="col-md-4">
-                                                <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                        </div>
-                                        <div class="form-group last">
-                                            <label class="col-md-3 control-label">Static Control</label>
-                                            <div class="col-md-4">
-                                                <p class="form-control-static"> email@example.com </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet box yellow">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="fa fa-gift"></i>Form Actions On Top & Bottom </div>
-                                <div class="tools">
-                                    <a href="javascript:;" class="collapse"> </a>
-                                    <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                    <a href="javascript:;" class="reload"> </a>
-                                    <a href="javascript:;" class="remove"> </a>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="form-horizontal">
-                                    <div class="form-actions top">
-                                        <div class="row">
-                                            <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-body">
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Text</label>
-                                            <div class="col-md-4">
-                                                <input type="text" class="form-control" placeholder="Enter text">
-                                                <span class="help-block"> A block of help text. </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Email Address</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-envelope"></i>
-                                                                    </span>
-                                                    <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Password</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                    <input type="password" class="form-control" placeholder="Password">
-                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-user"></i>
-                                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Left Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon">
-                                                    <i class="fa fa-bell-o"></i>
-                                                    <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Right Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon right">
-                                                    <i class="fa fa-microphone"></i>
-                                                    <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Input With Spinner</label>
-                                            <div class="col-md-4">
-                                                <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                        </div>
-                                        <div class="form-group last">
-                                            <label class="col-md-3 control-label">Static Control</label>
-                                            <div class="col-md-4">
-                                                <p class="form-control-static"> email@example.com </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-actions fluid">
-                                        <div class="row">
-                                            <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet light ">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="icon-equalizer font-red-sunglo"></i>
-                                    <span class="caption-subject font-red-sunglo bold uppercase">Form Sample</span>
-                                    <span class="caption-helper">form actions on top...</span>
-                                </div>
-                                <div class="actions">
-                                    <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                        <i class="icon-cloud-upload"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                        <i class="icon-wrench"></i>
-                                    </a>
-                                    <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                        <i class="icon-trash"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="form-horizontal">
-                                    <div class="form-body">
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Text</label>
-                                            <div class="col-md-4">
-                                                <input type="text" class="form-control" placeholder="Enter text">
-                                                <span class="help-block"> A block of help text. </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Email Address</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-envelope"></i>
-                                                                    </span>
-                                                    <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Password</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                    <input type="password" class="form-control" placeholder="Password">
-                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-user"></i>
-                                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Left Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon">
-                                                    <i class="fa fa-bell-o"></i>
-                                                    <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Right Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon right">
-                                                    <i class="fa fa-microphone"></i>
-                                                    <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Input With Spinner</label>
-                                            <div class="col-md-4">
-                                                <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                        </div>
-                                        <div class="form-group last">
-                                            <label class="col-md-3 control-label">Static Control</label>
-                                            <div class="col-md-4">
-                                                <p class="form-control-static"> email@example.com </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-actions">
-                                        <div class="row">
-                                            <div class="col-md-offset-3 col-md-4">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet light bordered">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="icon-equalizer font-red-sunglo"></i>
-                                    <span class="caption-subject font-red-sunglo bold uppercase">Form Sample</span>
-                                    <span class="caption-helper">form actions without bg color</span>
-                                </div>
-                                <div class="actions">
-                                    <div class="portlet-input input-inline input-small">
-                                        <div class="input-icon right">
-                                            <i class="icon-magnifier"></i>
-                                            <input type="text" class="form-control input-circle" placeholder="search..."> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="form-horizontal">
-                                    <div class="form-body">
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Text</label>
-                                            <div class="col-md-4">
-                                                <input type="text" class="form-control" placeholder="Enter text">
-                                                <span class="help-block"> A block of help text. </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Email Address</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-envelope"></i>
-                                                                    </span>
-                                                    <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Password</label>
-                                            <div class="col-md-4">
-                                                <div class="input-group">
-                                                    <input type="password" class="form-control" placeholder="Password">
-                                                    <span class="input-group-addon">
-                                                                        <i class="fa fa-user"></i>
-                                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Left Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon">
-                                                    <i class="fa fa-bell-o"></i>
-                                                    <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Right Icon</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon right">
-                                                    <i class="fa fa-microphone"></i>
-                                                    <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">Input With Spinner</label>
-                                            <div class="col-md-4">
-                                                <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                        </div>
-                                        <div class="form-group last">
-                                            <label class="col-md-3 control-label">Static Control</label>
-                                            <div class="col-md-4">
-                                                <p class="form-control-static"> email@example.com </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-actions">
-                                        <div class="row">
-                                            <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="portlet box red">
-                                    <div class="portlet-title">
-                                        <div class="caption">
-                                            <i class="fa fa-gift"></i>Left Aligned </div>
-                                        <div class="tools">
-                                            <a href="javascript:;" class="collapse"> </a>
-                                            <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                            <a href="javascript:;" class="reload"> </a>
-                                            <a href="javascript:;" class="remove"> </a>
-                                        </div>
-                                    </div>
-                                    <div class="portlet-body form">
-                                        <!-- BEGIN FORM-->
-                                        <form action="#">
-                                            <div class="form-actions top">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                            <div class="form-body">
-                                                <div class="form-group">
-                                                    <label class="control-label">Text</label>
-                                                    <input type="text" class="form-control" placeholder="Enter text">
-                                                    <span class="help-block"> A block of help text. </span>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Email Address</label>
-                                                    <div class="input-group">
-                                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-envelope"></i>
-                                                                        </span>
-                                                        <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Password</label>
-                                                    <div class="input-group">
-                                                        <input type="password" class="form-control" placeholder="Password">
-                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-user"></i>
-                                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Left Icon</label>
-                                                    <div class="input-icon">
-                                                        <i class="fa fa-bell-o"></i>
-                                                        <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Right Icon</label>
-                                                    <div class="input-icon right">
-                                                        <i class="fa fa-microphone"></i>
-                                                        <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Input With Spinner</label>
-                                                    <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                                <div class="form-group last">
-                                                    <label class="control-label">Static Control</label>
-                                                    <p class="form-control-static"> email@example.com </p>
-                                                </div>
-                                            </div>
-                                            <div class="form-actions">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </form>
-                                        <!-- END FORM-->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="portlet box purple">
-                                    <div class="portlet-title">
-                                        <div class="caption">
-                                            <i class="fa fa-gift"></i>Right Aligned </div>
-                                        <div class="tools">
-                                            <a href="javascript:;" class="collapse"> </a>
-                                            <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                            <a href="javascript:;" class="reload"> </a>
-                                            <a href="javascript:;" class="remove"> </a>
-                                        </div>
-                                    </div>
-                                    <div class="portlet-body form">
-                                        <!-- BEGIN FORM-->
-                                        <form action="#">
-                                            <div class="form-actions top right">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                            <div class="form-body">
-                                                <div class="form-group">
-                                                    <label class="control-label">Text</label>
-                                                    <input type="text" class="form-control" placeholder="Enter text">
-                                                    <span class="help-block"> A block of help text. </span>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Email Address</label>
-                                                    <div class="input-group">
-                                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-envelope"></i>
-                                                                        </span>
-                                                        <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Password</label>
-                                                    <div class="input-group">
-                                                        <input type="password" class="form-control" placeholder="Password">
-                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-user"></i>
-                                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Left Icon</label>
-                                                    <div class="input-icon">
-                                                        <i class="fa fa-bell-o"></i>
-                                                        <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Right Icon</label>
-                                                    <div class="input-icon right">
-                                                        <i class="fa fa-microphone"></i>
-                                                        <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Input With Spinner</label>
-                                                    <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                                <div class="form-group last">
-                                                    <label class="control-label">Static Control</label>
-                                                    <p class="form-control-static"> email@example.com </p>
-                                                </div>
-                                            </div>
-                                            <div class="form-actions right">
-                                                <button type="submit" class="btn green">Submit</button>
-                                                <button type="button" class="btn default">Cancel</button>
-                                            </div>
-                                        </form>
-                                        <!-- END FORM-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="portlet box yellow">
-                                    <div class="portlet-title">
-                                        <div class="caption">
-                                            <i class="fa fa-gift"></i>Actions Buttons </div>
-                                        <div class="tools">
-                                            <a href="javascript:;" class="collapse"> </a>
-                                            <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                            <a href="javascript:;" class="reload"> </a>
-                                            <a href="javascript:;" class="remove"> </a>
-                                        </div>
-                                    </div>
-                                    <div class="portlet-body form">
-                                        <!-- BEGIN FORM-->
-                                        <form action="#">
-                                            <div class="form-actions top">
-                                                <div class="btn-set pull-left">
-                                                    <button type="submit" class="btn green">Submit</button>
-                                                    <button type="button" class="btn blue">Other Action</button>
-                                                </div>
-                                                <div class="btn-set pull-right">
-                                                    <button type="button" class="btn default">Action 1</button>
-                                                    <button type="button" class="btn red">Action 2</button>
-                                                    <button type="button" class="btn yellow">Action 3</button>
-                                                </div>
-                                            </div>
-                                            <div class="form-body">
-                                                <div class="form-group">
-                                                    <label class="control-label">Text</label>
-                                                    <input type="text" class="form-control" placeholder="Enter text">
-                                                    <span class="help-block"> A block of help text. </span>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Email Address</label>
-                                                    <div class="input-group">
-                                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-envelope"></i>
-                                                                        </span>
-                                                        <input type="email" class="form-control" placeholder="Email Address"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Password</label>
-                                                    <div class="input-group">
-                                                        <input type="password" class="form-control" placeholder="Password">
-                                                        <span class="input-group-addon">
-                                                                            <i class="fa fa-user"></i>
-                                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Left Icon</label>
-                                                    <div class="input-icon">
-                                                        <i class="fa fa-bell-o"></i>
-                                                        <input type="text" class="form-control" placeholder="Left icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Right Icon</label>
-                                                    <div class="input-icon right">
-                                                        <i class="fa fa-microphone"></i>
-                                                        <input type="text" class="form-control" placeholder="Right icon"> </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="control-label">Input With Spinner</label>
-                                                    <input type="password" class="form-control spinner" placeholder="Password"> </div>
-                                                <div class="form-group last">
-                                                    <label class="control-label">Static Control</label>
-                                                    <p class="form-control-static"> email@example.com </p>
-                                                </div>
-                                            </div>
-                                            <div class="form-actions">
-                                                <div class="btn-set pull-left">
-                                                    <button type="submit" class="btn green">Submit</button>
-                                                    <button type="button" class="btn blue">Other Action</button>
-                                                </div>
-                                                <div class="btn-set pull-right">
-                                                    <button type="button" class="btn default">Action 1</button>
-                                                    <button type="button" class="btn red">Action 2</button>
-                                                    <button type="button" class="btn yellow">Action 3</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                        <!-- END FORM-->
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
