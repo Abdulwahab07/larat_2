@@ -21,6 +21,21 @@
   "x axis" : "الاحداثي الافقي",
   "y axis" : "الاحداثي الطولي",
   "Cancel" : "تراجع",
-  "Submit and next" : "أحفظ و انتقل"
+  "Submit and next" : "أحفظ و انتقل",
+  "Real address" : "عنوان العقار",
+  "Real aspects" : "مواصفاته",
+  "Real areas" : "المساحات",
+  "Real areas" : "المساحات",
+  "Real boarders" : "الحدود",
+  "Real documents" : "الوثائق",
+  "Real snaps" : "الصور",
+  "Real gurantees" : "الضمانات",
+  "Real facilities" : "المرافق",
+  "Real services" : "الخدمات",
+  "Real services" : "الخدمات",
+  "Real prices" : "الاسعار و التثمين و السوم",
+  "Real procuration" : "تفويض التسويق",
+  "Real aspects details" : "مواصفات العقار" ,
+  "Real aspects details" : "مواصفات العقار"
 
 }

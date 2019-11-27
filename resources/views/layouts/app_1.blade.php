@@ -593,6 +593,21 @@ License: You must have a valid license purchased only from themeforest(the above
         });
     }
 </script>
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {lat:19.0969062 , lng: 42.8637875 };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 7, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZlrymJsryl5himcxxt9igsAaUkXk20RA&callback=initMap&maptype=satellite">
+</script>
 </body>
 
 </html>

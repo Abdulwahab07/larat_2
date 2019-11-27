@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620c81e4-0a01-4782-8448-a226e2ae642e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/larat_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larat_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app_1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app_1.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/reals/add_2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reals/add_2.blade.php" afterDir="false" />
@@ -26,30 +21,34 @@
     <session id="-1067648412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="54" />
+          <entry key="project.closed" value="63" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="16" />
-          <entry key="project.open.time.6" value="27" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="55" />
+          <entry key="project.open.time.6" value="29" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="17" />
+          <entry key="css" value="18" />
           <entry key="env" value="2" />
           <entry key="ico" value="1" />
           <entry key="jpg" value="11" />
-          <entry key="js" value="5" />
+          <entry key="js" value="8" />
           <entry key="json" value="6" />
-          <entry key="php" value="104" />
+          <entry key="php" value="107" />
           <entry key="png" value="6" />
           <entry key="svg" value="1" />
           <entry key="txt" value="1" />
@@ -59,12 +58,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="43" />
-          <entry key="CSS" value="17" />
+          <entry key="Blade" value="45" />
+          <entry key="CSS" value="18" />
           <entry key="Image" value="18" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="5" />
-          <entry key="PHP" value="61" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PHP" value="62" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SVG" value="1" />
           <entry key="XML" value="1" />
@@ -74,15 +73,15 @@
         <counts>
           <entry key="css" value="236" />
           <entry key="env" value="63" />
-          <entry key="json" value="424" />
-          <entry key="php" value="2463" />
+          <entry key="json" value="611" />
+          <entry key="php" value="2765" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1999" />
+          <entry key="Blade" value="2301" />
           <entry key="CSS" value="236" />
-          <entry key="JSON" value="424" />
+          <entry key="JSON" value="611" />
           <entry key="PHP" value="464" />
           <entry key="PLAIN_TEXT" value="63" />
         </counts>
@@ -91,61 +90,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/reals/add_2.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
+            <state relative-caret-position="264">
+              <caret line="294" column="60" selection-start-line="294" selection-start-column="60" selection-end-line="294" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/reals/add.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app_1.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="590" column="35" selection-start-line="590" selection-start-column="35" selection-end-line="590" selection-end-column="35" />
+            <state relative-caret-position="14607">
+              <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RealController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6318">
-              <caret line="234" column="17" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/public/layouts/global/scripts/quick-nav.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/lang/ar.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="1026">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -170,8 +142,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="7" column="67474" selection-start-line="7" selection-start-column="67474" selection-end-line="7" selection-end-column="67474" />
+            <state relative-caret-position="1728">
+              <caret line="7" column="57873" selection-start-line="7" selection-start-column="57873" selection-end-line="7" selection-end-column="57873" />
+              <folding>
+                <element signature="e#53480#53680#2" expanded="true" />
+                <element signature="e#53886#54035#2" expanded="true" />
+                <element signature="e#54534#54680#2" expanded="true" />
+                <element signature="e#54981#55147#1" expanded="true" />
+                <element signature="e#65468#65711#2" expanded="true" />
+                <element signature="e#66536#66785#2" expanded="true" />
+                <element signature="e#92437#92627#2" expanded="true" />
+                <element signature="e#92673#92863#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,10 +177,12 @@
       <find>conta</find>
       <find>&lt;i</find>
       <find>This field has error</find>
-      <find>tab_1</find>
       <find>#tab_4</find>
       <find>tab_4</find>
       <find>tab_0</find>
+      <find>nav-tabs</find>
+      <find>demo form</find>
+      <find>tab_1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -250,11 +234,11 @@
         <option value="$PROJECT_DIR$/resources/lang/en/interfaces.php" />
         <option value="$PROJECT_DIR$/resources/views/reals/add.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RealController.php" />
-        <option value="$PROJECT_DIR$/resources/lang/ar.json" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/reals/add_2.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app_1.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/ar.json" />
+        <option value="$PROJECT_DIR$/resources/views/reals/add_2.blade.php" />
       </list>
     </option>
   </component>
@@ -399,6 +383,13 @@
               <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="larat_2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larat_2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -433,6 +424,36 @@
               <item name="larat_2" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larat_2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larat_2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="layout2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larat_2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="layout2" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larat_2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="layout2" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="layout.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="larat_2" type="b2602c69:ProjectViewProjectNode" />
@@ -515,11 +536,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="nav-tabs&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -608,16 +631,26 @@
       <workItem from="1573111326221" duration="1214000" />
       <workItem from="1573125217667" duration="1640000" />
       <workItem from="1573127055072" duration="1645000" />
+      <workItem from="1573367970457" duration="622000" />
+      <workItem from="1573374657369" duration="1368000" />
+      <workItem from="1573382358501" duration="1809000" />
+      <workItem from="1574335457977" duration="232000" />
+      <workItem from="1574335727763" duration="1518000" />
+      <workItem from="1574590642146" duration="1216000" />
+      <workItem from="1574592994902" duration="1773000" />
+      <workItem from="1574594962371" duration="1725000" />
+      <workItem from="1574834868656" duration="1535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78187000" />
+    <option name="totallyTimeSpent" value="89985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24222937" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19453377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -632,7 +665,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32919955" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30665162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -646,18 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/vendors/fonts/Lato/OFL.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendors/js/jquery.waypoints.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/android-chrome-256x256.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/android-chrome-192x192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/favicons/safari-pinned-tab.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -822,6 +843,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reals/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -846,10 +874,44 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/global/css/components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21779">
+          <caret line="13217" column="50" selection-start-line="13217" selection-start-column="42" selection-end-line="13217" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/pages/scripts/table-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/layouts/layout2/scripts/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/reals/add_2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="294" column="60" selection-start-line="294" selection-start-column="60" selection-end-line="294" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app_1.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14607">
+          <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/layouts/global/scripts/quick-nav.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/ar.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="1026">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -868,29 +930,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="7" column="67474" selection-start-line="7" selection-start-column="67474" selection-end-line="7" selection-end-column="67474" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reals/add_2.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="162" column="61" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/reals/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app_1.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="590" column="35" selection-start-line="590" selection-start-column="35" selection-end-line="590" selection-end-column="35" />
+        <state relative-caret-position="1728">
+          <caret line="7" column="57873" selection-start-line="7" selection-start-column="57873" selection-end-line="7" selection-end-column="57873" />
+          <folding>
+            <element signature="e#53480#53680#2" expanded="true" />
+            <element signature="e#53886#54035#2" expanded="true" />
+            <element signature="e#54534#54680#2" expanded="true" />
+            <element signature="e#54981#55147#1" expanded="true" />
+            <element signature="e#65468#65711#2" expanded="true" />
+            <element signature="e#66536#66785#2" expanded="true" />
+            <element signature="e#92437#92627#2" expanded="true" />
+            <element signature="e#92673#92863#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

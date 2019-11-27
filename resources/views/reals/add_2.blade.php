@@ -6,31 +6,40 @@
     <br/>
     <div class="row">
         <div class="col-md-12">
-            <div class="tabbable-line boxless tabbable-reversed">
+            <div class="boxless tabbable-reversed">
                 <ul class="nav nav-tabs">
                     <li class="active">
-                        <a href="#tab_0" data-toggle="tab"> Form Actions </a>
+                        <a href="#tab_0" data-toggle="tab"> {{__('Real address')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_1" data-toggle="tab"> 2 Columns </a>
+                        <a href="#tab_1" data-toggle="tab"> {{__('Real aspects')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_2" data-toggle="tab"> 2 Columns Horizontal </a>
+                        <a href="#tab_2" data-toggle="tab"> {{__('Real areas')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_3" data-toggle="tab"> 2 Columns View Only </a>
+                        <a href="#tab_3" data-toggle="tab"> {{__('Real boarders')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_4" data-toggle="tab"> Row Seperated </a>
+                        <a href="#tab_4" data-toggle="tab"> {{__('Real documents')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_5" data-toggle="tab"> Bordered </a>
+                        <a href="#tab_5" data-toggle="tab"> {{__('Real snaps')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_6" data-toggle="tab"> Row Stripped </a>
+                        <a href="#tab_6" data-toggle="tab"> {{__('Real gurantees')}} </a>
                     </li>
                     <li>
-                        <a href="#tab_7" data-toggle="tab"> Label Stripped </a>
+                        <a href="#tab_7" data-toggle="tab"> {{__('Real facilities')}} </a>
+                    </li>
+                    <li>
+                        <a href="#tab_8" data-toggle="tab"> {{__('Real services')}} </a>
+                    </li>
+                    <li>
+                        <a href="#tab_9" data-toggle="tab"> {{__('Real prices')}} </a>
+                    </li>
+                    <li>
+                        <a href="#tab_10" data-toggle="tab"> {{__('Real procuration')}} </a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -38,7 +47,7 @@
                         <div class="portlet box blue">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="fa fa-gift"></i>{{__('Add Address Details')}} </div>
+                                    <i class="fa fa-map-marker"></i> {{__('Add Address Details')}} </div>
                                 <div class="tools">
                                     <a href="javascript:;" class="collapse"> </a>
                                     <a href="#portlet-config" data-toggle="modal" class="config"> </a>
@@ -158,11 +167,8 @@
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="portlet-body">
-                                                    <div id="gmap_static" class="gmaps">
-                                                        <div  id="map">
-                                                        </div>
-                                                    </div>
+                                                <div class="portlet-body" id="map"  style=" width: 100%;height: 400px;background-color: grey;">
+                                                    <!--Here is Google Map-->
                                                 </div>
                                             </div>
                                             <!-- END STATIC PORTLET-->
@@ -185,7 +191,7 @@
                         <div class="portlet box blue">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="fa fa-gift"></i>Form Sample </div>
+                                    <i class="fa fa-info-circle"></i>{{__('Real aspects details')}}</div>
                                 <div class="tools">
                                     <a href="javascript:;" class="collapse"> </a>
                                     <a href="#portlet-config" data-toggle="modal" class="config"> </a>
@@ -195,384 +201,104 @@
                             </div>
                             <div class="portlet-body form">
                                 <!-- BEGIN FORM-->
-                                <form action="#" class="horizontal-form">
+                                <form action="#" class="form-horizontal">
                                     <div class="form-body">
-                                        <h3 class="form-section">Person Info</h3>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">First Name</label>
-                                                    <input type="text" id="firstName" class="form-control" placeholder="Chee Kin">
-                                                    <span class="help-block"> This is inline help </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group has-error">
-                                                    <label class="control-label">Last Name</label>
-                                                    <input type="text" id="lastName" class="form-control" placeholder="Lim">
-                                                    <span class="help-block"> This field has error. </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Gender</label>
-                                                    <select class="form-control">
-                                                        <option value="">Male</option>
-                                                        <option value="">Female</option>
-                                                    </select>
-                                                    <span class="help-block"> Select your gender </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Date of Birth</label>
-                                                    <input type="text" class="form-control" placeholder="dd/mm/yyyy"> </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Category</label>
-                                                    <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option value="Category 1">Category 1</option>
-                                                        <option value="Category 2">Category 2</option>
-                                                        <option value="Category 3">Category 5</option>
-                                                        <option value="Category 4">Category 4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Membership</label>
-                                                    <div class="radio-list">
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Option 1 </label>
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option 2 </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <h3 class="form-section">Address</h3>
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Street</label>
-                                                    <input type="text" class="form-control"> </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('city')}}</label>
+                                            <div class="col-md-4">
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('Riyadh')}}</option>
+                                                    <option value="Category 2">{{__('Abha')}}</option>
+                                                    <option value="Category 3">{{__('Jeddah')}}</option>
+                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>City</label>
-                                                    <input type="text" class="form-control"> </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('distirct')}}</label>
+                                            <div class="col-md-4">
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('Riyadh')}}</option>
+                                                    <option value="Category 2">{{__('Abha')}}</option>
+                                                    <option value="Category 3">{{__('Jeddah')}}</option>
+                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                </select>
                                             </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>State</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
                                         </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Post Code</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Country</label>
-                                                    <select class="form-control"> </select>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3">{{__('planed')}}</label>
+                                            <div class="col-md-4">
+                                                <div class="radio-list">
+                                                    <label></label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('certified')}} </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('not certified')}} </label>
                                                 </div>
                                             </div>
-                                            <!--/span-->
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('planed number')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('planed number')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('town')}}</label>
+                                            <div class="col-md-4">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('town')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('piece number')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('piece number')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3">{{__('inscope')}}</label>
+                                            <div class="col-md-4">
+                                                <div class="radio-list">
+                                                    <label></label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('yes')}} </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('no')}} </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('nearest')}}</label>
+                                            <div class="col-md-4">
+                                                <div class="input-icon right">
+                                                    <input type="text" class="form-control" placeholder="{{__('nearest')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('x axis')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('x axis')}}"> </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label">{{__('y axis')}}</label>
+                                            <div class="col-md-2">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control" placeholder="{{__('y axis')}}"> </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-actions right">
-                                        <button type="button" class="btn default">Cancel</button>
-                                        <button type="submit" class="btn blue">
-                                            <i class="fa fa-check"></i> Save</button>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet light bordered">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="icon-equalizer font-blue-hoki"></i>
-                                    <span class="caption-subject font-blue-hoki bold uppercase">Form Sample</span>
-                                    <span class="caption-helper">demo form...</span>
-                                </div>
-                                <div class="tools">
-                                    <a href="" class="collapse"> </a>
-                                    <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                    <a href="" class="reload"> </a>
-                                    <a href="" class="remove"> </a>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="horizontal-form">
-                                    <div class="form-body">
-                                        <h3 class="form-section">Person Info</h3>
+                                    <div class="form-actions">
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">First Name</label>
-                                                    <input type="text" id="firstName" class="form-control" placeholder="Chee Kin">
-                                                    <span class="help-block"> This is inline help </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group has-error">
-                                                    <label class="control-label">Last Name</label>
-                                                    <input type="text" id="lastName" class="form-control" placeholder="Lim">
-                                                    <span class="help-block"> This field has error. </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Gender</label>
-                                                    <select class="form-control">
-                                                        <option value="">Male</option>
-                                                        <option value="">Female</option>
-                                                    </select>
-                                                    <span class="help-block"> Select your gender </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Date of Birth</label>
-                                                    <input type="text" class="form-control" placeholder="dd/mm/yyyy"> </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Category</label>
-                                                    <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option value="Category 1">Category 1</option>
-                                                        <option value="Category 2">Category 2</option>
-                                                        <option value="Category 3">Category 5</option>
-                                                        <option value="Category 4">Category 4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Membership</label>
-                                                    <div class="radio-list">
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Option 1 </label>
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option 2 </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <h3 class="form-section">Address</h3>
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Street</label>
-                                                    <input type="text" class="form-control"> </div>
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button type="button" class="btn  grey-salsa btn-outline">{{__('Cancel')}}</button>
+                                                <button type="submit" class="btn  blue">{{__('Submit and next')}}</button>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>City</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>State</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Post Code</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Country</label>
-                                                    <select class="form-control"> </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                    </div>
-                                    <div class="form-actions right">
-                                        <button type="button" class="btn default">Cancel</button>
-                                        <button type="submit" class="btn blue">
-                                            <i class="fa fa-check"></i> Save</button>
-                                    </div>
-                                </form>
-                                <!-- END FORM-->
-                            </div>
-                        </div>
-                        <div class="portlet light ">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="icon-equalizer font-red-sunglo"></i>
-                                    <span class="caption-subject font-red-sunglo bold uppercase">Form Sample</span>
-                                    <span class="caption-helper">demo form...</span>
-                                </div>
-                                <div class="tools">
-                                    <a href="" class="collapse"> </a>
-                                    <a href="#portlet-config" data-toggle="modal" class="config"> </a>
-                                    <a href="" class="reload"> </a>
-                                    <a href="" class="remove"> </a>
-                                </div>
-                            </div>
-                            <div class="portlet-body form">
-                                <!-- BEGIN FORM-->
-                                <form action="#" class="horizontal-form">
-                                    <div class="form-body">
-                                        <h3 class="form-section">Person Info</h3>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">First Name</label>
-                                                    <input type="text" id="firstName" class="form-control" placeholder="Chee Kin">
-                                                    <span class="help-block"> This is inline help </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group has-error">
-                                                    <label class="control-label">Last Name</label>
-                                                    <input type="text" id="lastName" class="form-control" placeholder="Lim">
-                                                    <span class="help-block"> This field has error. </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Gender</label>
-                                                    <select class="form-control">
-                                                        <option value="">Male</option>
-                                                        <option value="">Female</option>
-                                                    </select>
-                                                    <span class="help-block"> Select your gender </span>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Date of Birth</label>
-                                                    <input type="text" class="form-control" placeholder="dd/mm/yyyy"> </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Category</label>
-                                                    <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option value="Category 1">Category 1</option>
-                                                        <option value="Category 2">Category 2</option>
-                                                        <option value="Category 3">Category 5</option>
-                                                        <option value="Category 4">Category 4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="control-label">Membership</label>
-                                                    <div class="radio-list">
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Option 1 </label>
-                                                        <label class="radio-inline">
-                                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> Option 2 </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <h3 class="form-section">Address</h3>
-                                        <div class="row">
-                                            <div class="col-md-12 ">
-                                                <div class="form-group">
-                                                    <label>Street</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>City</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>State</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                        <!--/row-->
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Post Code</label>
-                                                    <input type="text" class="form-control"> </div>
-                                            </div>
-                                            <!--/span-->
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label>Country</label>
-                                                    <select class="form-control"> </select>
-                                                </div>
-                                            </div>
-                                            <!--/span-->
-                                        </div>
-                                    </div>
-                                    <div class="form-actions left">
-                                        <button type="button" class="btn default">Cancel</button>
-                                        <button type="submit" class="btn blue">
-                                            <i class="fa fa-check"></i> Save</button>
                                     </div>
                                 </form>
                                 <!-- END FORM-->
