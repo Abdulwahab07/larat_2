@@ -204,91 +204,63 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="form-body">
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('city')}}</label>
+                                            <label class="col-md-3 control-label">{{__('real type')}}</label>
                                             <div class="col-md-4">
                                                 <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
-                                                    <option value="Category 1">{{__('Riyadh')}}</option>
-                                                    <option value="Category 2">{{__('Abha')}}</option>
-                                                    <option value="Category 3">{{__('Jeddah')}}</option>
-                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                    <option value="Category 1">{{__('pure')}}</option>
+                                                    <option value="Category 2">{{__('building')}}</option>
+                                                    <option value="Category 3">{{__('old building')}}</option>
+                                                    <option value="Category 4">{{__('farm')}}</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('distirct')}}</label>
+                                            <label class="col-md-3 control-label">{{__('building type')}}</label>
                                             <div class="col-md-4">
                                                 <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
-                                                    <option value="Category 1">{{__('Riyadh')}}</option>
-                                                    <option value="Category 2">{{__('Abha')}}</option>
-                                                    <option value="Category 3">{{__('Jeddah')}}</option>
-                                                    <option value="Category 4">{{__('Dammam')}}</option>
+                                                    <option value="Category 1">{{__('concrete')}}</option>
+                                                    <option value="Category 2">{{__('old')}}</option>
+                                                    <option value="Category 3">{{__('concrete round')}}</option>
+                                                    <option value="Category 4">{{__('old round')}}</option>
+                                                    <option value="Category 4">{{__('with out')}}</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-md-3">{{__('planed')}}</label>
+                                            <label class="control-label col-md-3">{{__('building status')}}</label>
                                             <div class="col-md-4">
-                                                <div class="radio-list">
-                                                    <label></label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('certified')}} </label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('not certified')}} </label>
-                                                </div>
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('completed')}}</option>
+                                                    <option value="Category 2">{{__('skeleton')}}</option>
+                                                    <option value="Category 3">{{__('finished of')}}</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('planed number')}}</label>
+                                            <label class="col-md-3 control-label">{{__('age')}}</label>
                                             <div class="col-md-2">
                                                 <div class="input-icon">
-                                                    <input type="text" class="form-control" placeholder="{{__('planed number')}}"> </div>
+                                                    <input type="text" class="form-control" placeholder="{{__('age number')}}"> </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('town')}}</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon">
-                                                    <input type="text" class="form-control" placeholder="{{__('town')}}"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('piece number')}}</label>
+                                            <label class="col-md-3 control-label">{{__('building details')}}</label>
                                             <div class="col-md-2">
                                                 <div class="input-icon">
-                                                    <input type="text" class="form-control" placeholder="{{__('piece number')}}"> </div>
+                                                    <input type="text" class="form-control" placeholder="{{__('number of floor')}}"> </div></div>
+                                            <div class="col-md-2"><div class="input-icon">
+                                                        <input type="text" class="form-control" placeholder="{{__('number of apartment')}}"> </div>
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="control-label col-md-3">{{__('inscope')}}</label>
+                                            <label class="col-md-3 control-label">{{__('pure natural')}}</label>
                                             <div class="col-md-4">
-                                                <div class="radio-list">
-                                                    <label></label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optionsRadios2" value="option1" checked/> {{__('yes')}} </label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optionsRadios2" value="option2" /> {{__('no')}} </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('nearest')}}</label>
-                                            <div class="col-md-4">
-                                                <div class="input-icon right">
-                                                    <input type="text" class="form-control" placeholder="{{__('nearest')}}"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('x axis')}}</label>
-                                            <div class="col-md-2">
-                                                <div class="input-icon">
-                                                    <input type="text" class="form-control" placeholder="{{__('x axis')}}"> </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label">{{__('y axis')}}</label>
-                                            <div class="col-md-2">
-                                                <div class="input-icon">
-                                                    <input type="text" class="form-control" placeholder="{{__('y axis')}}"> </div>
+                                                <select class="form-control" data-placeholder="Choose a Category" tabindex="1">
+                                                    <option value="Category 1">{{__('stone')}}</option>
+                                                    <option value="Category 2">{{__('interment')}}</option>
+                                                    <option value="Category 2">{{__('flat')}}</option>
+                                                    <option value="Category 3">{{__('slope')}}</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>

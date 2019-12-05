@@ -36,6 +36,32 @@
   "Real prices" : "الاسعار و التثمين و السوم",
   "Real procuration" : "تفويض التسويق",
   "Real aspects details" : "مواصفات العقار" ,
-  "Real aspects details" : "مواصفات العقار"
+  "Real aspects details" : "مواصفات العقار",
+  "real type" : "نوع العقار" ,
+  "pure" :  "أرض" ,
+  "building" :  "عمارة",
+  "old building" : "شعبي" ,
+  "farm" :  "مزرعة" ,
+  "concrete" : "مسلح" ,
+  "old" : "شعبي" ,
+  "concrete round" : "تسوير مسلح" ,
+  "old round" : "تسوير شعبي" ,
+  "with out" : "بدون سور" ,
+  "completed" : "مكتمل" ,
+  "skeleton" : "عظم" ,
+  "finished of" : "منتهي من " ,
+  "age" : "عمر العقار" ,
+  "age number" : "العمر بالسنوات" ,
+  "stone" : "عزاز" ,
+  "interment" : "دفان" ,
+  "slope" : "ميول" ,
+  "flat" : "مستوي" ,
+  "pure natural" : "طبيعة الارض" ,
+  "building details" : "تفاصيل المبنى" ,
+  "number of floor" : "عدد الادوار" ,
+  "number of apartment" : "عدد الشقق" ,
+  "building type" : "نوع البناء" ,
+  "building status" : "حالة البناء"
+
 
 }
